@@ -4,12 +4,15 @@ from __future__ import annotations
 import ast
 import json
 import re
-import tomllib
+try:
+    import tomllib
+except ModuleNotFoundError:
+    import tomli as tomllib
 from pathlib import Path
 
 
 IGNORED_DIRS = {
-    ".git", ".venv", "venv", "__pycache__",
+    ".git", ".venv", "venv", "__pycache__python .\depguard\scanner.py .",
     "node_modules", "dist", "build",
 }
 
