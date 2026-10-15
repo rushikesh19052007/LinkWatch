@@ -1,164 +1,189 @@
 {
+  "schema_version": "1.0",
   "repository": "C:\\Users\\dewan\\LinkWatch",
-  "manifests_found": [
-    "pyproject.toml",
-    "requirements.txt"
-  ],
   "dependencies": {
     "toml": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": "==0.10.2",
-        "raw": "toml==0.10.2"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 1,
         "constraint": "==0.10.2",
-        "raw": "toml==0.10.2"
+        "source": "requirements"
       }
     ],
     "appdirs": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": "==1.4.4",
-        "raw": "appdirs==1.4.4"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 2,
         "constraint": "==1.4.4",
-        "raw": "appdirs==1.4.4"
+        "source": "requirements"
       }
     ],
     "requests": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": "==2.31.0",
-        "raw": "requests==2.31.0"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 3,
         "constraint": "==2.31.0",
-        "raw": "requests==2.31.0"
+        "source": "requirements"
       }
     ],
     "jinja2": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": "==2.11.3",
-        "raw": "Jinja2==2.11.3"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 4,
         "constraint": "==2.11.3",
-        "raw": "Jinja2==2.11.3"
+        "source": "requirements"
       }
     ],
     "pydantic": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": ">=2",
-        "raw": "pydantic>=2"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 5,
         "constraint": "==1.10.13",
-        "raw": "pydantic==1.10.13"
+        "source": "requirements"
       }
     ],
     "click": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": ">=7",
-        "raw": "click>=7"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 6,
         "constraint": ">=7",
-        "raw": "click>=7"
+        "source": "requirements"
       }
     ],
     "six": [
       {
         "file": "pyproject.toml",
-        "constraint": "(unspecified)",
-        "raw": "six"
+        "line": null,
+        "constraint": "(unconstrained)",
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 7,
-        "constraint": "(unspecified)",
-        "raw": "six"
+        "constraint": "(unconstrained)",
+        "source": "requirements"
       }
     ],
     "chardet": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": "==5.2.0",
-        "raw": "chardet==5.2.0"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 8,
         "constraint": "==5.2.0",
-        "raw": "chardet==5.2.0"
+        "source": "requirements"
       }
     ],
     "setuptools": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": "==75.8.0",
-        "raw": "setuptools==75.8.0"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 9,
         "constraint": "==75.8.0",
-        "raw": "setuptools==75.8.0"
+        "source": "requirements"
       }
     ],
     "idna": [
       {
         "file": "pyproject.toml",
+        "line": null,
         "constraint": "==2.7",
-        "raw": "idna==2.7"
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 10,
         "constraint": "==2.7",
-        "raw": "idna==2.7"
+        "source": "requirements"
       }
     ],
     "python-dateutil": [
       {
         "file": "pyproject.toml",
-        "constraint": "(unspecified)",
-        "raw": "python-dateutil"
+        "line": null,
+        "constraint": "(unconstrained)",
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 11,
-        "constraint": "(unspecified)",
-        "raw": "python-dateutil"
+        "constraint": "(unconstrained)",
+        "source": "requirements"
       }
     ],
     "rich": [
       {
         "file": "pyproject.toml",
-        "constraint": "(unspecified)",
-        "raw": "rich"
+        "line": null,
+        "constraint": "(unconstrained)",
+        "source": "pyproject"
       },
       {
         "file": "requirements.txt",
         "line": 12,
-        "constraint": "(unspecified)",
-        "raw": "rich"
+        "constraint": "(unconstrained)",
+        "source": "requirements"
+      }
+    ],
+    "pytest": [
+      {
+        "file": "requirements-dev.txt",
+        "line": 1,
+        "constraint": "(unconstrained)",
+        "source": "requirements"
+      }
+    ],
+    "nose": [
+      {
+        "file": "requirements-dev.txt",
+        "line": 2,
+        "constraint": "==1.3.7",
+        "source": "requirements"
       }
     ]
   },
@@ -168,14 +193,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": "==1.4.4",
-          "raw": "appdirs==1.4.4"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 2,
           "constraint": "==1.4.4",
-          "raw": "appdirs==1.4.4"
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -186,14 +212,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": "==5.2.0",
-          "raw": "chardet==5.2.0"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 8,
           "constraint": "==5.2.0",
-          "raw": "chardet==5.2.0"
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -204,14 +231,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": ">=7",
-          "raw": "click>=7"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 6,
           "constraint": ">=7",
-          "raw": "click>=7"
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -222,14 +250,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": "==2.7",
-          "raw": "idna==2.7"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 10,
           "constraint": "==2.7",
-          "raw": "idna==2.7"
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -240,14 +269,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": "==2.11.3",
-          "raw": "Jinja2==2.11.3"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 4,
           "constraint": "==2.11.3",
-          "raw": "Jinja2==2.11.3"
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -258,14 +288,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": ">=2",
-          "raw": "pydantic>=2"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 5,
           "constraint": "==1.10.13",
-          "raw": "pydantic==1.10.13"
+          "source": "requirements"
         }
       ],
       "different_constraints": true,
@@ -276,14 +307,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
-          "constraint": "(unspecified)",
-          "raw": "python-dateutil"
+          "line": null,
+          "constraint": "(unconstrained)",
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 11,
-          "constraint": "(unspecified)",
-          "raw": "python-dateutil"
+          "constraint": "(unconstrained)",
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -294,14 +326,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": "==2.31.0",
-          "raw": "requests==2.31.0"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 3,
           "constraint": "==2.31.0",
-          "raw": "requests==2.31.0"
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -312,14 +345,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
-          "constraint": "(unspecified)",
-          "raw": "rich"
+          "line": null,
+          "constraint": "(unconstrained)",
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 12,
-          "constraint": "(unspecified)",
-          "raw": "rich"
+          "constraint": "(unconstrained)",
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -330,14 +364,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": "==75.8.0",
-          "raw": "setuptools==75.8.0"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 9,
           "constraint": "==75.8.0",
-          "raw": "setuptools==75.8.0"
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -348,14 +383,15 @@
       "declarations": [
         {
           "file": "pyproject.toml",
-          "constraint": "(unspecified)",
-          "raw": "six"
+          "line": null,
+          "constraint": "(unconstrained)",
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 7,
-          "constraint": "(unspecified)",
-          "raw": "six"
+          "constraint": "(unconstrained)",
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
@@ -366,378 +402,465 @@
       "declarations": [
         {
           "file": "pyproject.toml",
+          "line": null,
           "constraint": "==0.10.2",
-          "raw": "toml==0.10.2"
+          "source": "pyproject"
         },
         {
           "file": "requirements.txt",
           "line": 1,
           "constraint": "==0.10.2",
-          "raw": "toml==0.10.2"
+          "source": "requirements"
         }
       ],
       "different_constraints": false,
       "risk": "Repeated declaration"
     }
   ],
-  "import_usages": {
-    "__future__": [
-      {
-        "file": "depguard\\scanner.py",
-        "line": 2,
-        "module": "__future__"
-      }
-    ],
-    "ast": [
-      {
-        "file": "depguard\\scanner.py",
-        "line": 4,
-        "module": "ast"
-      }
-    ],
-    "json": [
-      {
-        "file": "depguard\\scanner.py",
-        "line": 5,
-        "module": "json"
-      },
-      {
-        "file": "linkwatch\\cache.py",
-        "line": 1,
-        "module": "json"
-      },
-      {
-        "file": "tests\\depguard\\test_scanner.py",
-        "line": 2,
-        "module": "json"
-      }
-    ],
-    "re": [
-      {
-        "file": "depguard\\scanner.py",
-        "line": 6,
-        "module": "re"
-      },
-      {
-        "file": "linkwatch\\encoding.py",
-        "line": 2,
-        "module": "re"
-      }
-    ],
-    "pathlib": [
-      {
-        "file": "depguard\\scanner.py",
-        "line": 11,
-        "module": "pathlib"
-      },
-      {
-        "file": "tests\\depguard\\test_scanner.py",
-        "line": 5,
-        "module": "pathlib"
-      }
-    ],
-    "tomllib": [
-      {
-        "file": "depguard\\scanner.py",
-        "line": 8,
-        "module": "tomllib"
-      }
-    ],
-    "argparse": [
-      {
-        "file": "depguard\\scanner.py",
-        "line": 166,
-        "module": "argparse"
-      }
-    ],
-    "tomli": [
-      {
-        "file": "depguard\\scanner.py",
-        "line": 10,
-        "module": "tomli"
-      }
-    ],
-    "os": [
-      {
-        "file": "linkwatch\\cache.py",
-        "line": 2,
-        "module": "os"
-      },
-      {
-        "file": "tests\\test_cache.py",
-        "line": 1,
-        "module": "os"
-      },
-      {
-        "file": "tests\\test_config.py",
-        "line": 1,
-        "module": "os"
-      }
-    ],
-    "appdirs": [
-      {
-        "file": "linkwatch\\cache.py",
-        "line": 4,
-        "module": "appdirs"
-      }
-    ],
-    "time": [
-      {
-        "file": "linkwatch\\checker.py",
-        "line": 1,
-        "module": "time"
-      },
-      {
-        "file": "tests\\conftest.py",
-        "line": 3,
-        "module": "time"
-      }
-    ],
-    "datetime": [
-      {
-        "file": "linkwatch\\checker.py",
-        "line": 2,
-        "module": "datetime"
-      },
-      {
-        "file": "linkwatch\\report.py",
-        "line": 1,
-        "module": "datetime"
-      }
-    ],
-    "certifi": [
-      {
-        "file": "linkwatch\\checker.py",
-        "line": 4,
-        "module": "certifi"
-      }
-    ],
-    "requests": [
-      {
-        "file": "linkwatch\\checker.py",
-        "line": 5,
-        "module": "requests"
-      },
-      {
-        "file": "linkwatch\\checker.py",
-        "line": 6,
-        "module": "requests"
-      },
-      {
-        "file": "linkwatch\\encoding.py",
-        "line": 5,
-        "module": "requests.utils"
-      },
-      {
-        "file": "linkwatch\\http_patch.py",
-        "line": 1,
-        "module": "requests"
-      }
-    ],
-    "dates": [
-      {
-        "file": "linkwatch\\checker.py",
-        "line": 8,
-        "module": "dates"
-      }
-    ],
-    "encoding": [
-      {
-        "file": "linkwatch\\checker.py",
-        "line": 9,
-        "module": "encoding"
-      }
-    ],
-    "click": [
-      {
-        "file": "linkwatch\\cli.py",
-        "line": 1,
-        "module": "click"
-      },
-      {
-        "file": "tests\\test_report.py",
-        "line": 1,
-        "module": "click.testing"
-      }
-    ],
-    "rich": [
-      {
-        "file": "linkwatch\\cli.py",
-        "line": 2,
-        "module": "rich.console"
-      },
-      {
-        "file": "linkwatch\\cli.py",
-        "line": 3,
-        "module": "rich.live"
-      },
-      {
-        "file": "linkwatch\\cli.py",
-        "line": 4,
-        "module": "rich.table"
-      }
-    ],
-    "report": [
-      {
-        "file": "linkwatch\\cli.py",
-        "line": 56,
-        "module": "report"
-      }
-    ],
-    "typing": [
-      {
-        "file": "linkwatch\\config.py",
-        "line": 1,
-        "module": "typing"
-      }
-    ],
-    "toml": [
-      {
-        "file": "linkwatch\\config.py",
-        "line": 3,
-        "module": "toml"
-      }
-    ],
-    "pydantic": [
-      {
-        "file": "linkwatch\\config.py",
-        "line": 4,
-        "module": "pydantic"
-      }
-    ],
-    "dateutil": [
-      {
-        "file": "linkwatch\\dates.py",
-        "line": 1,
-        "module": "dateutil"
-      }
-    ],
-    "html": [
-      {
-        "file": "linkwatch\\encoding.py",
-        "line": 1,
-        "module": "html"
-      }
-    ],
-    "chardet": [
-      {
-        "file": "linkwatch\\encoding.py",
-        "line": 4,
-        "module": "chardet"
-      }
-    ],
-    "jinja2": [
-      {
-        "file": "linkwatch\\report.py",
-        "line": 3,
-        "module": "jinja2"
-      }
-    ],
-    "resources": [
-      {
-        "file": "linkwatch\\report.py",
-        "line": 5,
-        "module": "resources"
-      }
-    ],
-    "pkg_resources": [
-      {
-        "file": "linkwatch\\resources.py",
-        "line": 1,
-        "module": "pkg_resources"
-      }
-    ],
-    "socket": [
-      {
-        "file": "tests\\conftest.py",
-        "line": 1,
-        "module": "socket"
-      }
-    ],
-    "threading": [
-      {
-        "file": "tests\\conftest.py",
-        "line": 2,
-        "module": "threading"
-      }
-    ],
-    "http": [
-      {
-        "file": "tests\\conftest.py",
-        "line": 4,
-        "module": "http.server"
-      }
-    ],
-    "pytest": [
-      {
-        "file": "tests\\conftest.py",
-        "line": 6,
-        "module": "pytest"
-      }
-    ],
-    "linkwatch": [
-      {
-        "file": "tests\\conftest.py",
-        "line": 8,
-        "module": "linkwatch.cli"
-      },
-      {
-        "file": "tests\\test_cache.py",
-        "line": 3,
-        "module": "linkwatch"
-      },
-      {
-        "file": "tests\\test_checker.py",
-        "line": 1,
-        "module": "linkwatch.checker"
-      },
-      {
-        "file": "tests\\test_checker.py",
-        "line": 2,
-        "module": "linkwatch.config"
-      },
-      {
-        "file": "tests\\test_config.py",
-        "line": 3,
-        "module": "linkwatch.config"
-      },
-      {
-        "file": "tests\\test_report.py",
-        "line": 3,
-        "module": "linkwatch"
-      },
-      {
-        "file": "tests\\test_report.py",
-        "line": 4,
-        "module": "linkwatch.cli"
-      }
-    ],
-    "subprocess": [
-      {
-        "file": "tests\\depguard\\test_scanner.py",
-        "line": 3,
-        "module": "subprocess"
-      }
-    ],
-    "sys": [
-      {
-        "file": "tests\\depguard\\test_scanner.py",
-        "line": 4,
-        "module": "sys"
-      }
-    ],
-    "depguard": [
-      {
-        "file": "tests\\depguard\\test_scanner.py",
-        "line": 37,
-        "module": "depguard.scanner"
-      }
-    ]
+  "manifest_risks": [
+    {
+      "package": "appdirs",
+      "constraint": "==1.4.4",
+      "file": "pyproject.toml",
+      "line": null,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "appdirs",
+      "constraint": "==1.4.4",
+      "file": "requirements.txt",
+      "line": 2,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "chardet",
+      "constraint": "==5.2.0",
+      "file": "pyproject.toml",
+      "line": null,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "chardet",
+      "constraint": "==5.2.0",
+      "file": "requirements.txt",
+      "line": 8,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "idna",
+      "constraint": "==2.7",
+      "file": "pyproject.toml",
+      "line": null,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "idna",
+      "constraint": "==2.7",
+      "file": "requirements.txt",
+      "line": 10,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "jinja2",
+      "constraint": "==2.11.3",
+      "file": "pyproject.toml",
+      "line": null,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "jinja2",
+      "constraint": "==2.11.3",
+      "file": "requirements.txt",
+      "line": 4,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "nose",
+      "constraint": "==1.3.7",
+      "file": "requirements-dev.txt",
+      "line": 2,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "pydantic",
+      "constraint": "==1.10.13",
+      "file": "requirements.txt",
+      "line": 5,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "requests",
+      "constraint": "==2.31.0",
+      "file": "pyproject.toml",
+      "line": null,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "requests",
+      "constraint": "==2.31.0",
+      "file": "requirements.txt",
+      "line": 3,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "setuptools",
+      "constraint": "==75.8.0",
+      "file": "pyproject.toml",
+      "line": null,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "setuptools",
+      "constraint": "==75.8.0",
+      "file": "requirements.txt",
+      "line": 9,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "toml",
+      "constraint": "==0.10.2",
+      "file": "pyproject.toml",
+      "line": null,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    },
+    {
+      "package": "toml",
+      "constraint": "==0.10.2",
+      "file": "requirements.txt",
+      "line": 1,
+      "risk": "Exact version pin; compatibility requires verification",
+      "verified_incompatibility": false
+    }
+  ],
+  "import_usages": [
+    {
+      "file": "depguard/scanner.py",
+      "line": 2,
+      "module": "__future__"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 4,
+      "module": "argparse"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 5,
+      "module": "ast"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 6,
+      "module": "json"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 7,
+      "module": "re"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 8,
+      "module": "sys"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 9,
+      "module": "pathlib"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 10,
+      "module": "typing"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 13,
+      "module": "tomllib"
+    },
+    {
+      "file": "depguard/scanner.py",
+      "line": 16,
+      "module": "tomli"
+    },
+    {
+      "file": "linkwatch/cache.py",
+      "line": 1,
+      "module": "json"
+    },
+    {
+      "file": "linkwatch/cache.py",
+      "line": 2,
+      "module": "os"
+    },
+    {
+      "file": "linkwatch/cache.py",
+      "line": 4,
+      "module": "appdirs"
+    },
+    {
+      "file": "linkwatch/checker.py",
+      "line": 1,
+      "module": "time"
+    },
+    {
+      "file": "linkwatch/checker.py",
+      "line": 2,
+      "module": "datetime"
+    },
+    {
+      "file": "linkwatch/checker.py",
+      "line": 4,
+      "module": "certifi"
+    },
+    {
+      "file": "linkwatch/checker.py",
+      "line": 5,
+      "module": "requests"
+    },
+    {
+      "file": "linkwatch/checker.py",
+      "line": 6,
+      "module": "requests"
+    },
+    {
+      "file": "linkwatch/checker.py",
+      "line": 8,
+      "module": "dates"
+    },
+    {
+      "file": "linkwatch/checker.py",
+      "line": 9,
+      "module": "encoding"
+    },
+    {
+      "file": "linkwatch/cli.py",
+      "line": 1,
+      "module": "click"
+    },
+    {
+      "file": "linkwatch/cli.py",
+      "line": 2,
+      "module": "rich.console"
+    },
+    {
+      "file": "linkwatch/cli.py",
+      "line": 3,
+      "module": "rich.live"
+    },
+    {
+      "file": "linkwatch/cli.py",
+      "line": 4,
+      "module": "rich.table"
+    },
+    {
+      "file": "linkwatch/cli.py",
+      "line": 56,
+      "module": "report"
+    },
+    {
+      "file": "linkwatch/config.py",
+      "line": 1,
+      "module": "typing"
+    },
+    {
+      "file": "linkwatch/config.py",
+      "line": 3,
+      "module": "toml"
+    },
+    {
+      "file": "linkwatch/config.py",
+      "line": 4,
+      "module": "pydantic"
+    },
+    {
+      "file": "linkwatch/dates.py",
+      "line": 1,
+      "module": "dateutil"
+    },
+    {
+      "file": "linkwatch/encoding.py",
+      "line": 1,
+      "module": "html"
+    },
+    {
+      "file": "linkwatch/encoding.py",
+      "line": 2,
+      "module": "re"
+    },
+    {
+      "file": "linkwatch/encoding.py",
+      "line": 4,
+      "module": "chardet"
+    },
+    {
+      "file": "linkwatch/encoding.py",
+      "line": 5,
+      "module": "requests.utils"
+    },
+    {
+      "file": "linkwatch/http_patch.py",
+      "line": 1,
+      "module": "requests"
+    },
+    {
+      "file": "linkwatch/report.py",
+      "line": 1,
+      "module": "datetime"
+    },
+    {
+      "file": "linkwatch/report.py",
+      "line": 3,
+      "module": "jinja2"
+    },
+    {
+      "file": "linkwatch/report.py",
+      "line": 5,
+      "module": "resources"
+    },
+    {
+      "file": "linkwatch/resources.py",
+      "line": 1,
+      "module": "pkg_resources"
+    },
+    {
+      "file": "tests/conftest.py",
+      "line": 1,
+      "module": "socket"
+    },
+    {
+      "file": "tests/conftest.py",
+      "line": 2,
+      "module": "threading"
+    },
+    {
+      "file": "tests/conftest.py",
+      "line": 3,
+      "module": "time"
+    },
+    {
+      "file": "tests/conftest.py",
+      "line": 4,
+      "module": "http.server"
+    },
+    {
+      "file": "tests/conftest.py",
+      "line": 6,
+      "module": "pytest"
+    },
+    {
+      "file": "tests/conftest.py",
+      "line": 8,
+      "module": "linkwatch.cli"
+    },
+    {
+      "file": "tests/depguard/test_scanner.py",
+      "line": 2,
+      "module": "json"
+    },
+    {
+      "file": "tests/depguard/test_scanner.py",
+      "line": 3,
+      "module": "subprocess"
+    },
+    {
+      "file": "tests/depguard/test_scanner.py",
+      "line": 4,
+      "module": "sys"
+    },
+    {
+      "file": "tests/depguard/test_scanner.py",
+      "line": 5,
+      "module": "pathlib"
+    },
+    {
+      "file": "tests/depguard/test_scanner.py",
+      "line": 37,
+      "module": "depguard.scanner"
+    },
+    {
+      "file": "tests/test_cache.py",
+      "line": 1,
+      "module": "os"
+    },
+    {
+      "file": "tests/test_cache.py",
+      "line": 3,
+      "module": "linkwatch"
+    },
+    {
+      "file": "tests/test_checker.py",
+      "line": 1,
+      "module": "linkwatch.checker"
+    },
+    {
+      "file": "tests/test_checker.py",
+      "line": 2,
+      "module": "linkwatch.config"
+    },
+    {
+      "file": "tests/test_config.py",
+      "line": 1,
+      "module": "os"
+    },
+    {
+      "file": "tests/test_config.py",
+      "line": 3,
+      "module": "linkwatch.config"
+    },
+    {
+      "file": "tests/test_report.py",
+      "line": 1,
+      "module": "click.testing"
+    },
+    {
+      "file": "tests/test_report.py",
+      "line": 3,
+      "module": "linkwatch"
+    },
+    {
+      "file": "tests/test_report.py",
+      "line": 4,
+      "module": "linkwatch.cli"
+    }
+  ],
+  "declared_import_name_matches": [
+    "appdirs",
+    "chardet",
+    "click",
+    "jinja2",
+    "pydantic",
+    "pytest",
+    "requests",
+    "rich",
+    "toml"
+  ],
+  "environment_check": {
+    "executed": false,
+    "note": "No installed-environment compatibility check was run by this scanner."
   },
   "limitations": [
     "Import names do not always match distribution names.",
     "Dynamic imports may not be detected.",
+    "Import-to-package matching is heuristic.",
+    "Environment markers and dependency resolution are not fully evaluated.",
     "Declarations alone do not prove runtime incompatibility.",
-    "This scanner does not execute or install replacement packages."
+    "This scanner does not install or execute replacement packages.",
+    "Exact pins are flagged for review, not automatically classified as vulnerabilities."
   ]
 }
